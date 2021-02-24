@@ -1,0 +1,21 @@
+{
+  "name": "tictactoe-node",
+  "version": "1.0.0",
+  "description": "Tictactoe Game",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "node ./dist/main.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
